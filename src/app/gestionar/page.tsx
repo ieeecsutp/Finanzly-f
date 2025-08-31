@@ -1,8 +1,8 @@
 import { Sidebar } from "@/components/sidebar"; 
 
-export default function DashboardPage() {
+export default function GestionarPage() {
   return(
-    <div className="font-sans text-gray-800 bg-black-50 min-h-screen">
+    <main className="font-sans text-gray-800 bg-black-50 min-h-screen">
         <div className="flex">
         <Sidebar />
         <section className="flex-1 bg-gray-100 p-6">
@@ -10,7 +10,7 @@ export default function DashboardPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="p-4 bg-white rounded-xl shadow-md">
               <h2 className="text-lg font-semibold">💰 Balance Total</h2>
-              <p className="text-2xl font-bold text-green-600 mt-2">s/2,500</p>
+              <p className="text-2xl font-bold text-green-600 mt-2">s/400000</p>
             </div>
             <div className="p-4 bg-white rounded-xl shadow-md">
               <h2 className="text-lg font-semibold">📉 Gastos Mensuales</h2>
@@ -35,6 +35,8 @@ export default function DashboardPage() {
           </div>
         </section>
         </div>
-    </div>
+
+    
+    </main>
   );
 }
