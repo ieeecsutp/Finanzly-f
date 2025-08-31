@@ -11,7 +11,7 @@ export function ConditionalLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
 
   // 2. Definimos las rutas donde NO queremos el header/footer
-  const noHeaderPaths = ["/dashboard", "/gestionar"];
+  const noHeaderPaths = ["/dashboard", "/registrar"];
 
 
   // 3. La misma lógica de antes, pero ahora con el hook

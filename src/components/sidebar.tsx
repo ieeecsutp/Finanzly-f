@@ -18,8 +18,8 @@ export function Sidebar() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/gestionar" className="flex items-center gap-3 p-2 rounded-lg hover:bg-[#B6FAFA]">
-                        💵 <span>Gestionar</span>
+                        <Link href="/registrar" className="flex items-center gap-3 p-2 rounded-lg hover:bg-[#B6FAFA]">
+                        💵 <span>Registrar</span>
                         </Link>
                     </li>
                 </ul>

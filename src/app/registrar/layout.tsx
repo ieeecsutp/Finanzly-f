@@ -3,7 +3,7 @@ import React from "react";
 import { Footer } from "@/components/footer";
 import { ClientThemeProviderWrapper } from "@/components/ClientThemeProviderWrapper";
 
-export default function GestionarLayout({ 
+export default function RegistrarLayout({ 
   children 
 }: { 
   children: React.ReactNode 
